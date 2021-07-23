@@ -1,0 +1,47 @@
+.navbar-content {
+  min-height: 100vh;
+  background: #FCFCFF
+}
+
+.block-image,
+.form-box {
+  position: relative;
+  top: 60px;
+  border-radius: 20px;
+  margin-left: 80px;
+}
+
+.block-image img {
+  height: 300px;
+  width: 100%;
+}
+
+.form-box {
+  top: 70px;
+  height: 500px;
+}
+
+.form-one {
+  height: 500px;
+  background: #FCFCFF;
+  border-radius: 20px;
+  margin: 5px;
+  border: 1px solid;
+
+}
+
+.form-two {
+  height: 340px;
+  background: blue;
+  top: 100px;
+  position: relative;
+  margin-left: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.text-box {
+  width: 360px;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
