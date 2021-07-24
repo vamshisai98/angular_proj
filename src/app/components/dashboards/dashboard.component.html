@@ -16,12 +16,69 @@
           <div class="col-sm-12 col-md-11 ">
             <div class="row form-box">
               <div class="col-sm-6 col-md-7 form-one">
-                <div class="form-header text-center h-20">
+                <div class="form-header text-center">
                   Eligibility Criteria
+                </div>
+                <div class="form-body p-4">
+                  <form>
+                    <fieldset>
+                      <div class="mb-3">
+                        <div>
+                          <label for="disabledTextInput" class="form-label">Monthly Income</label>
+                        </div>
+                        <label for="customRange3" class="form-label w-100"> &#x20b9; 1,50,000</label>
+                        <input class='w-100 custom-range bg-dark' type="range" id="customRange3" min="0" max="100"
+                          value="90" step="10">
+                        <div class="inp-range d-flex justify-content-between">
+                          <small>&#x20b9; 1,50,000</small>
+                          <small>&#x20b9; 3,00,000</small>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <div>
+                          <label for="disabledTextInput" class="form-label">Monthly Expense</label>
+                        </div>
+                        <label for="customRange3" class="form-label w-100"> &#x20b9; 50,000</label>
+                        <input class='w-100 custom-range bg-dark' type="range" id="customRange3" min="0" max="100"
+                          value="90" step="10">
+                      </div>
+
+
+                      <div class="mb-3">
+                        <label for="select" class="form-label">Repayement Tenure</label>
+                        <select id="select" class="form-select">
+                          <option>3 Months</option>
+                          <option>6 Months</option>
+                          <option>9 Months</option>
+                          <option>12 Months</option>
+
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <div class="form-check form-switch d-flex flex-row-reverse justify-content-between p-0">
+                          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                          <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox</label>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="text-inp" class="form-label">EMI of exisiting loan(optional)</label>
+                        <input type="text" class="form-control text-inp" id="text-inp" value='&#x20b9; 15,000'>
+                      </div>
+                    </fieldset>
+                  </form>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 form-two">
-
+                <div class=" d-flex flex-column pt-5 mt-5 px-4 loan-box">
+                  <div class="mb-3 text-center ">
+                    <label class="w-100">Loan Amount</label>
+                    <span class="fs-4 text-white ">&#x20b9; 1,00,000</span>
+                  </div>
+                  <div class="mb-3 text-center">
+                    <label class='w-100'>Your EMI will be</label>
+                    <span class="fs-4 text-white">&#x20b9; 15,000</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

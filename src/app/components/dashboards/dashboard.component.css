@@ -22,9 +22,9 @@
 }
 
 .form-one {
-  height: 500px;
   background: #FCFCFF;
   border-radius: 20px;
+  padding: 0;
   margin: 5px;
   border: 1px solid;
 
@@ -32,7 +32,7 @@
 
 .form-two {
   height: 340px;
-  background: blue;
+  background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
   top: 100px;
   position: relative;
   margin-left: 2px;
@@ -40,8 +40,40 @@
   border-bottom-right-radius: 20px;
 }
 
+
 .text-box {
   width: 360px;
   font-size: 34px;
   margin-bottom: 30px;
+}
+
+/* #customRange3 {
+  background-color: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box !important;
+
+} */
+.text-inp {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+
+.form-select {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+
+}
+
+.form-header {
+  height: 40px;
+  background: #f8f9fa;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 6px;
+
+}
+
+.loan-box label {
+  color: #929eaa;
 }
