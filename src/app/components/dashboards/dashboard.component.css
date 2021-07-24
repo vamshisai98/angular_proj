@@ -9,11 +9,14 @@
   top: 60px;
   border-radius: 20px;
   margin-left: 80px;
+
 }
 
 .block-image img {
   height: 300px;
   width: 100%;
+  z-index: 7;
+  position: relative;
 }
 
 .form-box {
@@ -29,6 +32,7 @@
   padding: 0;
   margin: 5px;
   border: 1px solid;
+
 
 }
 
@@ -89,4 +93,17 @@
   top: -60%;
   overflow: hidden;
 
+}
+
+.small-circle {
+
+  position: absolute;
+  z-index: 5;
+  left: -110px;
+  top: 149px;
+
+}
+
+.small-circle img {
+  width: 420px;
 }
