@@ -77,3 +77,13 @@
 .loan-box label {
   color: #929eaa;
 }
+
+.circle-img {
+  position: absolute;
+  z-index: 5;
+  width: 58%;
+  height: 1160px;
+  right: 0;
+  top: -60%;
+  overflow: hidden;
+}
