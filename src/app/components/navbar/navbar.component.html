@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" (scroll)="onscroll()"
+  [ngClass]="navbarfixed?'fixed':'notfixed'">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +22,7 @@
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item p-3">
-          <button class="btn btn-outline-success rounded-pill login" type="submit">Login</button>
+          <button class="btn rounded-pill login" type="submit">Login</button>
         </li>
         <li class="nav-item p-3">
           <button class="btn  rounded-pill submit" type="submit">Get Started</button>

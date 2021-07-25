@@ -28,3 +28,27 @@
   margin-left: 30px;
   height: 10 0px;
 }
+
+
+.navbar-nav .nav-item:hover .nav-link:hover {
+  background: #663399;
+  color: white;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  transition: 0.2s linear;
+  top: 0px;
+  z-index: 11;
+  padding: 10px;
+  height: 90px;
+
+}
+
+.notfixed {
+  position: static;
+  transition: 0.2s linear;
+  top: -50px;
+  height: 100px;
+}
